@@ -1,0 +1,151 @@
+@font-face{
+  font-family: Sriracha;
+  src: url(../assets/fonts/Sriracha-Regular.ttf);
+}
+
+@font-face{
+  font-family: JosefinSans;
+  src: url(../assets/fonts/JosefinSans-SemiBold.ttf);
+}
+
+*{
+  padding: 0;
+  box-sizing: border-box; 
+ 
+}
+
+html{
+  height: 500vh;
+}
+ 
+ 
+.container{
+  max-width: 1280px;
+  margin: auto;
+}
+
+.flex{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header{
+  width: 100%;
+  padding: 60px 4%;
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  transition: 1s;
+}
+
+header.rolagem{
+
+  background-color: white;
+  padding: 20px 4%;
+
+}
+
+header.rolagem a, header.rolagem i{
+
+    color: rgb(9, 63, 243);
+
+} 
+
+header i {
+  font-size: 30px;
+  color: black;
+}
+
+header ul {
+  list-style-type: none;
+}
+
+header ul li{
+  display: inline-block;
+  margin: 0 40px;
+
+}
+
+header ul li a{
+  color:rgb(11, 52, 235);
+  text-decoration: none;
+  font-family: JosefinSans, sans-serif;
+}
+
+.btn-contacto button{
+
+ padding: 12px 24px;
+ border-radius: 5px;
+ border: solid 2px rgb(255, 255, 255);
+ background-color: 	#00BFFF;
+ color: white;
+ transition: 0.4s;
+ cursor: pointer;
+ font-family: JosefinSans, sans-serif;
+}
+
+.btn-contacto button:hover{
+
+  border: solid 2px #00BFFF;
+  background-color:white;
+  color: #00BFFF;
+
+}
+
+.banner{
+  height: 700px;
+  background-image: url(../assets/img/fondo_header1.png);
+  background-position: 100% 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 80px;
+  
+}
+
+  .banner h1{
+  
+    font-size: 4rem;
+    font-family: Sriracha, sans-serif;
+    line-height: 0.5;
+    text-shadow: 2px 2px rgb(255, 255, 255);
+    
+    
+
+}
+ 
+.banner h2{
+  
+  color: rgb(211, 154, 107); 
+  font-size: 4rem;
+  font-family: Sriracha, sans-serif;
+  line-height: 0;
+  text-shadow: 2px 2px rgb(255, 255, 255);
+}
+
+.img-perfil img{
+
+  height: 400px;
+  width: 400px;
+  border-radius: 150px;
+border-style: double;
+border-color: #4e9bef;
+border-width: 15px;
+position: relative;
+margin-left: 600px;
+
+}
+
+
+
+
+
+
+
+
+
