@@ -1,0 +1,60 @@
+.experiences__body{
+    background-color: #0099ff;
+   
+}
+
+.experiences{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.experience__title{
+    text-align: center;
+    font-size: 30px;
+    color: gold;
+    text-transform: uppercase;
+    margin: 25px;
+    font-weight: bold;
+}
+
+
+.experience__date{
+    font-size: 25px;
+    color: gold;
+    font-weight: bold;
+}
+.experience__company{
+    font-size: 25px;
+    color: white;
+}
+
+.experience__position{
+    font-size: 20px;
+    color: white;
+
+}
+.experience__description{
+    color: white;
+    
+
+
+}
+
+.experience{
+    padding: 25px;
+    max-width: 500px;
+    margin: 0 auto;
+    
+}
+
+@media (min-width: 950px){
+   .experience__grid{
+        display: grid;
+        grid-template-columns: auto 2px auto;
+    }
+}
+
+.line{
+    background-color: white;
+}
