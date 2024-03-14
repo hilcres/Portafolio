@@ -117,38 +117,44 @@ header ul li a:hover{
 
 .banner{
   height: 700px;
-  background-color: #9ed1b7
-  ;
-  /* background-position: 100% 0;
+  background-image: url(/assets/img/Prueba4.png);
+  background-position: 100% 0;
   background-repeat: no-repeat;
-  background-size: cover; */
+  background-size: cover;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-
-  
 }
 
-  .banner h1{
-  
-    font-size: 4rem;
+.banner__flex{
+    margin-top: 220px;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  .banner__text{
+    margin-right: 180px;
+    margin-left: 100px;
+    color: white;
     font-family: Sriracha, sans-serif;
-    line-height: 0.8;
-    text-shadow: 2px 2px rgb(255, 255, 255);
+    text-shadow: 2px 2px black;
     
+    
+  }
+
+  .banner__text h2{
+    font-size: 4rem;
+
+  }
+
+  .banner__text h3{
+    font-size: 2rem;
+
+  }
+
+
     
 
-}
- 
-.banner h2{
-  
-  color: rgb(211, 154, 107); 
-  font-size: 4rem;
-  font-family: Sriracha, sans-serif;
-  line-height: 0.8;
-  text-shadow: 2px 2px rgb(255, 255, 255);
-}
 
 
 main{
@@ -161,12 +167,7 @@ main{
 
   height: 400px;
   width: 400px;
-  border-radius: 150px;
-border-style: double;
-border-color: #4e9bef;
-border-width: 15px;
-position: relative;
-margin-left: 600px;
+
 
 }
 
