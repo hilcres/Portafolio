@@ -1,5 +1,14 @@
+
+:root{
+
+    --first-color: #ececec; 
+    --second-color: #9fd3c7;  
+    --third-color: #385170;
+    --fourth-color: #142d4c; 
+  }
+  
 .experiences__body{
-    background-color: #0099ff;
+    background-color: var(--fourth-color);
    
 }
 
@@ -57,4 +66,8 @@
 
 .line{
     background-color: white;
+}
+
+.wave__top .wave__left{
+    background-color: var(--fourth-color);
 }
